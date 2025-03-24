@@ -23,6 +23,7 @@ class RecipePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(),
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           RecipeTitle(),
           RecipeMenu(),
